@@ -57,7 +57,7 @@ Asena.addCommand({on: 'text', fromMe: false }, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '917356211870@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/💥.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Helo','Kooi','baby','umma','Umma','ayn,','Ayn']
+const array = ['Helo','Kooi','baby','umma','Umma','ayn,','Ayn','Mazha']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
@@ -120,7 +120,7 @@ Asena.addCommand({on: 'text', fromMe: false}, (async (message, match) => {
         if (!!message.mention && message.mention[0] == '917356211870@s.whatsapp.net') {
 await message.client.sendMessage(message.jid, fs.readFileSync('./uploads/💥.mp3'), MessageType.audio, { mimetype: Mimetype.mp4Audio, quoted : message.data, ptt: true})
         }
-const array = ['Helo','Kooi','kooi','umma',',Umma,','ayn,','Ayn,']
+const array = ['Helo','Kooi','kooi','umma',',Umma,','ayn,','Ayn','Mazha']
 array.map( async (a) => {
 let pattern = new RegExp(`\\b${a}\\b`, 'g');
 if(pattern.test(message.message)){
